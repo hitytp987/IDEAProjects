@@ -6,43 +6,36 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfe4cdf9-d3ea-4330-9679-188cb890dc21" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/JavaWeb_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="cfe4cdf9-d3ea-4330-9679-188cb890dc21" name="Default Changelist" comment="JavaWeb加载tomcat">
+      <change afterPath="$PROJECT_DIR$/bootstrap/01_bootstrap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/bootstrap.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/js/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/js/npm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWeb01/JavaWeb01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/JavaWeb.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWeb01/web/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module01/Module01.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module01/src/yang/bean/Customer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module01/src/yang/bean/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StaticWeb01/StaticWeb01.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/01_bootstrap.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/bootstrap.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap-theme.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap-theme.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/js/jquery-3.2.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/js/npm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWeb01/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/web/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="185" />
   </component>
   <component name="Git.Settings">
     <option name="PUSH_TAGS">
@@ -68,12 +61,22 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IDEAProjects\bootstrap" />
+      <recent name="D:\IDEAProjects\bootstrap\js" />
+      <recent name="D:\IDEAProjects\JavaWeb\fonts" />
+      <recent name="D:\IDEAProjects\bootstrap\css" />
+      <recent name="D:\IDEAProjects" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.33" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.33" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
@@ -182,12 +185,60 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584728121227</updated>
-      <workItem from="1584728131995" duration="497000" />
+      <workItem from="1584728131995" duration="1327000" />
     </task>
+    <task id="LOCAL-00001" summary="JavaWeb加载tomcat">
+      <created>1584728766796</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584728766796</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="JavaWeb加载tomcat" />
+    <option name="LAST_COMMIT_MESSAGE" value="JavaWeb加载tomcat" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="21" key="#Project_Structure" timestamp="1584728374659">
@@ -198,72 +249,80 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1584728291051" />
-    <state x="324" y="69" key="FileChooserDialogImpl" timestamp="1584728372908">
+    <state x="283" y="0" key="CommitChangelistDialog2" timestamp="1584729669621">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="324" y="69" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584728372908" />
-    <state width="904" height="174" key="GridCell.Tab.0.bottom" timestamp="1584728655070">
+    <state x="283" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584729669621" />
+    <state x="324" y="69" key="FileChooserDialogImpl" timestamp="1584728913924">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="904" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584728655070" />
-    <state width="904" height="174" key="GridCell.Tab.0.center" timestamp="1584728655069">
+    <state x="324" y="69" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584728913924" />
+    <state width="904" height="174" key="GridCell.Tab.0.bottom" timestamp="1584729669746">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="904" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584728655069" />
-    <state width="904" height="174" key="GridCell.Tab.0.left" timestamp="1584728655068">
+    <state width="904" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584729669746" />
+    <state width="904" height="174" key="GridCell.Tab.0.center" timestamp="1584729669745">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="904" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584728655068" />
-    <state width="904" height="174" key="GridCell.Tab.0.right" timestamp="1584728655069">
+    <state width="904" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584729669745" />
+    <state width="904" height="174" key="GridCell.Tab.0.left" timestamp="1584729669745">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="904" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584728655069" />
-    <state width="904" height="174" key="GridCell.Tab.1.bottom" timestamp="1584728655073">
+    <state width="904" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584729669745" />
+    <state width="904" height="174" key="GridCell.Tab.0.right" timestamp="1584729669746">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="904" height="174" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584728655073" />
-    <state width="904" height="174" key="GridCell.Tab.1.center" timestamp="1584728655070">
+    <state width="904" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584729669745" />
+    <state width="904" height="174" key="GridCell.Tab.1.bottom" timestamp="1584729669747">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="904" height="174" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1584728655070" />
-    <state width="904" height="174" key="GridCell.Tab.1.left" timestamp="1584728655070">
+    <state width="904" height="174" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584729669747" />
+    <state width="904" height="174" key="GridCell.Tab.1.center" timestamp="1584729669747">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="904" height="174" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1584728655070" />
-    <state width="904" height="174" key="GridCell.Tab.1.right" timestamp="1584728655073">
+    <state width="904" height="174" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1584729669747" />
+    <state width="904" height="174" key="GridCell.Tab.1.left" timestamp="1584729669747">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="904" height="174" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1584728655073" />
-    <state width="904" height="174" key="GridCell.Tab.2.bottom" timestamp="1584728655075">
+    <state width="904" height="174" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1584729669747" />
+    <state width="904" height="174" key="GridCell.Tab.1.right" timestamp="1584729669747">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="904" height="174" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584728655075" />
-    <state width="904" height="174" key="GridCell.Tab.2.center" timestamp="1584728655074">
+    <state width="904" height="174" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1584729669747" />
+    <state width="904" height="174" key="GridCell.Tab.2.bottom" timestamp="1584729669747">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="904" height="174" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1584728655074" />
-    <state width="904" height="174" key="GridCell.Tab.2.left" timestamp="1584728655074">
+    <state width="904" height="174" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584729669746" />
+    <state width="904" height="174" key="GridCell.Tab.2.center" timestamp="1584729669746">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="904" height="174" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1584728655074" />
-    <state width="904" height="174" key="GridCell.Tab.2.right" timestamp="1584728655075">
+    <state width="904" height="174" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1584729669746" />
+    <state width="904" height="174" key="GridCell.Tab.2.left" timestamp="1584729669746">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="904" height="174" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1584728655075" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1584728542081">
+    <state width="904" height="174" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1584729669746" />
+    <state width="904" height="174" key="GridCell.Tab.2.right" timestamp="1584729669746">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1584728542081" />
+    <state width="904" height="174" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1584729669746" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1584728798281">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1584728798281" />
+    <state x="274" y="29" width="647" height="608" key="find.popup" timestamp="1584729017398">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="274" y="29" width="647" height="608" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1584729017398" />
     <state x="380" y="154" key="git4idea.merge.GitPullDialog" timestamp="1584728606440">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="380" y="154" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1584728606440" />
-    <state x="53" y="0" key="new project wizard" timestamp="1584728200351">
+    <state x="53" y="0" key="new project wizard" timestamp="1584728963829">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="53" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1584728200351" />
+    <state x="53" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1584728963829" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/IDEAProjects$Tomcat_9_0_33.ic" NAME="Tomcat 9.0.33 Coverage Results" MODIFIED="1584728413458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/IDEAProjects$Tomcat_9_0_33.ic" NAME="Tomcat 9.0.33 Coverage Results" MODIFIED="1584729466332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
