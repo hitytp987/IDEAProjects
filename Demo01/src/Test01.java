@@ -14,6 +14,7 @@ public class Test01 {
         String major = (String) hashMap.get("major");
         System.out.println("major = " + major);
         System.out.println("java测试");
+        System.out.println("加量不加价");
 
     }
 }
