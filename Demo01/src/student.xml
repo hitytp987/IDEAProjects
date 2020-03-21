@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<users>
+    <user id="1">
+        <id>11</id>
+        <name>张三</name>
+    </user>
+
+    <user id="2">
+        <id>15</id>
+        <name>李四</name>
+    </user>
+
+    <user>
+        <id>15</id>
+        <name>
+<!--            CDATA区数据原样展示-->
+            <![CDATA[if(a>b && a<c) then {} ]]>
+        </name>
+    </user>
+</users>
