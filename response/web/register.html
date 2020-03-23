@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册码</title>
+    <script type="text/javascript">
+        window.onload = function () {
+            //获取图片对象
+            var img = document.getElementById("checkCode");
+            //绑定单击事件
+            img.onclick = function () {
+                //由于缓存的原因，加了时间戳，保证每次访问的都是不同网址
+                var date = new Date().getTime();
+                img.src = "/response/checkCodeServlet?"+date;
+            }
+
+            //获取超链接对象
+            var change = document.getElementById("change");
+            change.onclick = function () {
+                //点击超链接时，执行图片点击操作
+                img.onclick();
+                //返回false，阻止链接跳转操作
+                return false;
+            }
+        }
+
+    </script>
+</head>
+<body>
+    <img id="checkCode" src="/response/checkCodeServlet" alt="">
+    <a id="change" href="">看不清，换一张？</a>
+</body>
+</html>

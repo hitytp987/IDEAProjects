@@ -12,5 +12,6 @@
   </head>
   <body>
     <h3>首页</h3>
+    <a href="/logintest/login.html">登录</a>
   </body>
 </html>
