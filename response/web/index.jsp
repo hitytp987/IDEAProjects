@@ -15,5 +15,11 @@
     <a href="/response/responseDemo3">字符输出流：responseDemo3</a><br>
     <a href="/response/responseDemo4">字节输出流：responseDemo4</a><br>
     <a href="/response/checkCodeServlet">验证码：checkCodeServlet</a><br>
+    <a href="/response/servletContextDemo1">ServletContextDemo1</a><br>
+
+    <hr>
+<%--    <a href="/response/downloadServlet?filename=马123.jpg">下载图片</a>--%>
+    <a href="/response/downloadServlet?filename=马123.jpg" >下载图片</a>
+    <a href="/response/downloadServlet?filename=1.txt">下载文本</a>
   </body>
 </html>

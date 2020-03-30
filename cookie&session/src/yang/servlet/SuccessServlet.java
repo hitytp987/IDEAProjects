@@ -1,4 +1,6 @@
-package yang.web.servlet;
+package yang.servlet;
+
+import yang.domain.User;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -6,22 +8,19 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.io.PrintWriter;
 
 /**
- * @author yang
- * @create 2020-03-23 23:31
+ * @ceateinfo yang  2020-03-26 22:20
  */
-@WebServlet("/responseDemo3")
-public class ResponseDemo3 extends HttpServlet {
+@WebServlet("/successServlet")
+public class SuccessServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        //获取流的对象之前，设置流的默认编码
+        //设置编码
         response.setContentType("text/html;charset=utf-8");
-        //获取字符输出流
-        PrintWriter writer = response.getWriter();
-        //输出信息
-        writer.write("<h1>您好 responseDemo3</h1>");
-
+        //获取用户信息
+        User user = (User) request.getSession().getAttribute("User");
+        //展示页面内容
+        response.getWriter().write("<h1>"+user.getName()+"，欢迎回来~~~</h1>");
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

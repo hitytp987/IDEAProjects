@@ -1,27 +1,28 @@
-package yang.web.servlet;
+package yang.session;
+
+import com.sun.org.apache.xml.internal.serializer.utils.SerializerMessages_es;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
-import java.io.PrintWriter;
 
 /**
  * @author yang
- * @create 2020-03-23 23:31
+ * @create 2020-03-26 20:07
  */
-@WebServlet("/responseDemo3")
-public class ResponseDemo3 extends HttpServlet {
+@WebServlet("/sessionDemo1")
+public class SessionDemo1 extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        //获取流的对象之前，设置流的默认编码
-        response.setContentType("text/html;charset=utf-8");
-        //获取字符输出流
-        PrintWriter writer = response.getWriter();
-        //输出信息
-        writer.write("<h1>您好 responseDemo3</h1>");
+        //设置Session
 
+        //1、获取Session对象
+        HttpSession session = request.getSession();
+        //2、设置Session值
+        session.setAttribute("msg","Session消息");
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

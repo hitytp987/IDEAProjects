@@ -1,0 +1,58 @@
+package yang.domain;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+/**
+ * @ceateinfo yang  2020-03-30 22:25
+ */
+public class User {
+    private String name;
+    private int age;
+    private Date birthday;
+
+    public User() {
+    }
+
+    public User(String name, int age, Date birthday) {
+        this.name = name;
+        this.age = age;
+        this.birthday = birthday;
+    }
+
+    //逻辑视图 （和成员变量无关，只是为了更好的展示数据）
+    public String getBirthStr() {
+        if (this.birthday != null) {
+            //格式化日期
+            SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+            //返回日期结果
+            return sdf.format(this.birthday);
+        } else {
+            return "";
+        }
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public Date getBirthday() {
+        return birthday;
+    }
+
+    public void setBirthday(Date birthday) {
+        this.birthday = birthday;
+    }
+}
